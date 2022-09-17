@@ -4,12 +4,15 @@
   "description": "Simple test of graphql api",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "npx nodemon index.js"
   },
   "author": "Jessé",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.10.2",
     "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
