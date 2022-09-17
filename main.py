@@ -1,9 +1,12 @@
 import requests
 
-url = 'http://localhost:5812/'
+# alguns exemplos de como acessar a api utilizando requests
+
+url = 'https://teste-api-graphql.cyclic.app/'
 
 def GraphQL(body:dict) -> requests.Response:
     return requests.post(url, json=body)
+
 
 # teste de GET
 def Get():
